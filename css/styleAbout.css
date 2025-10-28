@@ -45,6 +45,7 @@ a {
    HEADER
    ========================== */
 .header {
+    padding-top: 10px;
     background: transparent;
     display: flex;
     align-items: center;
@@ -239,6 +240,7 @@ a {
 }
 /* Page two */
 .header__inner-about{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -263,7 +265,7 @@ a {
 }
 .container-page-two {
     width: 100%;
-    max-width: 150vw;
+    max-width: 1440px;
     padding: 0 20px;
     margin: 0 auto;
     display: grid;
