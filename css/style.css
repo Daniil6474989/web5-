@@ -4488,7 +4488,7 @@ backdrop-filter: blur(30px);
 }
 
 /* Большая линия свг */
-@media(width:1920px){ 
+@media(max-width:1920px){ 
     .where-start-svg-2{
         display: flex;
         position: absolute;
@@ -4497,22 +4497,33 @@ backdrop-filter: blur(30px);
     }
 }
 
-@media(width:1440px){ 
-    .where-start-svg-2{
-        width:908px;
-        display: flex;
-        position: absolute;
-        top: 3260px;
-        left: 330px;
-    }
-}
-
-@media(width:1600px){ 
+@media(max-width:1600px){ 
     .where-start-svg-2{
         width: 1008px;
         display: flex;
         position: absolute;
         top: 3250px;
         left: 460px;
+    }
+}
+
+@media(max-width:1540px){ 
+    .where-start-svg-2{
+        width:1008px;
+        display: flex;
+        position: absolute;
+        top: 3260px;
+        left: 425px;
+    }
+}
+
+
+@media(max-width:1440px){ 
+    .where-start-svg-2{
+        width:908px;
+        display: flex;
+        position: absolute;
+        top: 3260px;
+        left: 330px;
     }
 }
