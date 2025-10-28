@@ -4538,3 +4538,9 @@ backdrop-filter: blur(30px);
         left: 330px;
     }
 }
+
+@media(max-width:1439px){ 
+    .where-start-svg-2{
+        display: none;
+    }
+}
