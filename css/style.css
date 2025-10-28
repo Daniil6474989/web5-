@@ -983,9 +983,9 @@ svg{
     }
     .where-start-svg-3{
         display: flex;
-        position: relative;
-        top: 1450px;
-        left: 40px;
+        position: absolute;
+        top: 2570px;
+        left: 80px;
     }
     .hero__inner {
         padding-top: 20px;
